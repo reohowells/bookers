@@ -1,4 +1,6 @@
-<strong>Title:</strong>><%= @book.title %>
+<p id="notice"><%= notice %></p>
+
+<strong>Title:</strong><%= @book.title %>
 <br><strong>Body:</strong><%= @book.body %></br>
 
 <br><%= link_to "Edit",edit_book_path(@book) %> | <%= link_to "Back",books_path %></br>
